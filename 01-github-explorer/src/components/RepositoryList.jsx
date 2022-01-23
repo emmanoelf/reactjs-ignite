@@ -8,7 +8,7 @@ const repository = {
 
 export function RepositoryList(){
     return(
-        <section class="repository-list">
+        <section className="repository-list">
             <h1>Lista de repositórios</h1>
             <ul>
                 <RepositoryItem repository={repository} />
